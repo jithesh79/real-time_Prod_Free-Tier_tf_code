@@ -1,0 +1,12 @@
+terraform-full-stack/
+├── main.tf                  # Root module entry
+├── provider.tf              # AWS provider & backend
+├── variables.tf             # All variables
+├── outputs.tf               # Outputs
+├── terraform.tfvars         # Environment-specific values
+├── network.tf               # VPC, subnets, route tables, NAT
+├── security.tf              # Security groups, IAM roles
+├── compute.tf               # EC2 instance
+├── alb.tf                   # Application Load Balancer
+├── s3.tf                    # S3 bucket (for logs)
+└── data-sources.tf          # Data blocks like AMIs
