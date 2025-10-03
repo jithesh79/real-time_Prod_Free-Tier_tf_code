@@ -15,3 +15,17 @@ Storage (S3)
 Variables / Outputs
 
 Provider configuration
+
+Deployment Commands:
+====================
+terraform init
+terraform validate
+terraform plan
+terraform apply -auto-approve
+
+After apply:
+===========
+
+Visit http://<alb_dns_name> in browser.
+
+You’ll see “Hello from Terraform EC2” (from NGINX).
